@@ -1,0 +1,230 @@
+	
+	h1{
+		display: inline-block;
+		height: 23px;
+		color:rgb(32, 103, 255);
+		font-family: 'Bebas Neue',Impact;
+		font-size: 25px;
+		text-align: center;
+		}
+		
+		/*DO NOT TOUCH*/
+	body{
+		height: 100%;
+		margin: 0;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-image: linear-gradient(rgb(14, 13, 13) 20% ,rgb(18, 18, 61));
+		}
+		
+	hr {
+		width: 95%;
+        height: 2px;
+        background-image: radial-gradient(circle, rgb(32, 103, 255), rgba(0, 0, 0, 0));
+        border: none;
+		}
+		
+	p{	
+		font-family: Impact;
+		font-size: 15px;
+		color:rgb(32, 103, 255);
+		}
+
+		input,
+		input::placeholder {
+			font-size: 11px;
+			font-family: arial, impact;
+		}
+		
+		/*This is the division shiz ya'kno to sort stuff up*/
+	.container { width: 100%;
+			max-width: 100%;
+			min-width: 320px;
+			margin: 0;
+			clear: both; }
+
+			.col-3 {float: left;
+				width: 53%;
+				margin-right: 2%;
+				margin-left: 17%;
+			}
+
+					.p1{
+						box-shadow: black 0px 0px 20px;
+						border-color: rgba(42, 57, 106, 0.145);
+						margin-right: 0px;
+						margin-left: 0px;
+						padding-left: 2%;
+						padding-bottom: 3px;
+						background-color:rgba(13, 24, 46, 0.145);
+						border-radius: 10px;
+					}
+					.forum{
+						display: flex;
+						align-items: center;
+						justify-content: justify;
+						color: aliceblue;
+					}
+		
+			.col-2 {float: left;
+					width: 15%;
+					border-right:solid 2px;
+					border-color: rgba(42, 57, 106, 0.145);
+					margin-right: 2%;
+					padding-top: 1%;
+					padding-bottom: 700px;
+					position:fixed;
+			}
+
+			.last {
+					width: 25%;
+					position: fixed;
+					border-right:solid 4px;
+					box-shadow: black 0px 0px 20px;
+					border-color: rgba(42, 57, 106, 0.145);
+					margin-right: 2%;
+					margin-left: 72%;
+					padding-top: 1%;
+					background-color:rgba(13, 24, 46, 0.145);
+					border-radius: 10px;
+			}
+
+	#logo {
+			float: left;
+			padding: 2px 0px 3px 0px;
+			margin-left: 1%; margin-top:5px;
+		}
+
+				/*Nav Animations RAHHHHHH*/
+				a {
+					color: white;
+					text-decoration: none;  
+				}
+
+				a:hover {
+					color: lightgray;
+				}
+
+				a:after:not(#popupbox) {
+					content:' ';
+					width: 0px;
+					height:3px;
+					background-color: white;
+					margin:auto;
+					display:block;
+				}
+
+				a:hover:after {
+					width:105%;
+					transition:width 0.3s linear;
+				}
+				/*More Nav (But LEFT)*/
+				.LeftN a {
+					margin-left:15%;
+					float:left;
+					color: white;
+					text-decoration: none;
+					font-size: 13px;
+					text-align: center;
+					font-family: trebuchet ms;
+				}
+
+
+
+		/*DO NOT TOUCH*/
+    .head1 {
+			background-color: rgb(14, 13, 13);
+			display: inline;
+            position: fixed;
+			top: 0;
+			color: white;
+			margin: 0 auto;
+			overflow: hidden;
+			width: 100%;
+        }
+    .head1 a {
+            float: right;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 13px;
+            text-align: center;
+            font-family: trebuchet ms;
+        }
+    .head1 input {
+            float: right;
+            color: white;
+            padding: 5px 5px 5px 5px;
+            font-size: 13px;
+            text-align: center;
+            margin: 10px;
+        }
+    .head1 [type=search] {
+            width: 200px;
+            height: 30px;
+            font-size: 16px;
+            padding: 0px 10px 0px 20px;
+            border-radius: 40px;
+            outline: none;
+            border: solid gray 2px;
+        }
+
+
+	/* IMG Center */
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 20px;
+	  }
+
+
+	#overflow{
+		color: white;
+		padding: 15px;
+		width: 100%;
+		height: 470px;
+		overflow: scroll;
+		overflow-x:hidden;
+	  }
+
+
+/* SCROLLBAR DESIGN*/
+
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px rgb(59, 59, 59); 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(32, 103, 255); 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(32, 103, 255); 
+  }
+
+  		#overflow{
+			font-family: Arial;
+			color:antiquewhite;
+		}
+
+	/*News CSS*/
+	#news{
+		display: flex;
+		align-items: center;
+		justify-content: center
+	  }
+
+	#text {
+		font-size: 20px;
+		padding-left: 20px;
+	  }
